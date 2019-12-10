@@ -1,7 +1,7 @@
 h1 {
   font-family: calibri;
-  font-size: 1.9em;
-  color: red;
+  font-size: 2.5em;
+  color: white;
 }
 
 div {
@@ -15,10 +15,10 @@ button {
   background-color: red;
   font-family: sans-serif;
   position: absolute;
-  top: 185px;
-  right: 42px;
+  top: 174px;
+  right: 53px;
   z-index: 0;
-  padding: 20px;
+  padding: 15px;
 }
 
 body {
@@ -32,6 +32,10 @@ input {
   position: absolute;
   right: 170px;
   top: 175px;
-  padding: 25px;
+  padding: 15px;
   width: 700px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
