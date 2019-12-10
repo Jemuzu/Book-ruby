@@ -1,32 +1,37 @@
 h1 {
   font-family: calibri;
-  font-size: 2em;
-  color: rgb(149, 30, 19);
+  font-size: 1.9em;
+  color: red;
 }
 
 div {
-  background-color: grey;
+  background-color: brown;
   border: 1.2px solid;
   border-color: black;
-  height: 150px;
+  height: 115px;
 }
 
 button {
   background-color: red;
-  padding: 10px;
   font-family: sans-serif;
   position: absolute;
   top: 185px;
   right: 42px;
   z-index: 0;
+  padding: 20px;
 }
 
+body {
+  background-image: url('https://images6.alphacoders.com/573/thumb-1920-573648.jpg');
+}
 button:hover {
   background-color: pink;
 }
 
 input {
   position: absolute;
-  right: 150px;
-  top: 199px;
+  right: 170px;
+  top: 175px;
+  padding: 25px;
+  width: 700px;
 }
