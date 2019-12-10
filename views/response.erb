@@ -1,0 +1,16 @@
+<% @responses.each do |response| %>
+<div class='book-response'>
+<h3><%= response.title %></h3>
+<h4><%= response.authors %></h4>
+<img src='<%=  response.image_link %>' />
+<a href='<%= response.info_link %>'>About this book</a>
+
+
+</div>
+<%# he name of the book %>
+<%# the author, if any %>
+<%# an image of it, if any %>
+<%# and a link to the it. %>
+
+
+<% end %>
